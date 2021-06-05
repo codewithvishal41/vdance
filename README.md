@@ -1,4 +1,5 @@
-# V dance Academy-this is an simple website only for practice and only html,css are used
+# V dance Academy
+This is an simple website only for practice (HTML,CSS are used only)
 ## Some Screenshot of Vdance
 ### Home Page
 ![index1](https://user-images.githubusercontent.com/82833518/120893803-be66ba80-c632-11eb-812f-abf6ae02ec4b.JPG)
@@ -6,7 +7,7 @@
 ![index3](https://user-images.githubusercontent.com/82833518/120893817-cd4d6d00-c632-11eb-9cc4-4886c29cf820.JPG)
 
 ### Footer
-![footer](https://user-images.githubusercontent.com/82833518/120893835-e3f3c400-c632-11eb-914b-0bf6114090b8.JPG#
+![footer](https://user-images.githubusercontent.com/82833518/120893835-e3f3c400-c632-11eb-914b-0bf6114090b8.JPG)
 
 ### About Page
 ![about1](https://user-images.githubusercontent.com/82833518/120893860-f79f2a80-c632-11eb-979b-a08484145daa.JPG)
