@@ -1,0 +1,735 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    background-color:#7C0004;
+    
+}
+.header-content{
+    color: white;
+    font-size: 16px;
+    margin:0 0 0 5px;
+   
+    
+    display: inline-block;
+}
+
+#header-left{
+    text-align: left;
+    width: 33%;
+}
+
+#header-center{
+    text-align: center;
+    width: 33%;
+}
+
+#header-right{
+    text-align: right;
+    width: 33%;
+    margin-right: -15px;
+}
+#header-right a {
+    text-decoration: none;
+}
+.random{
+   
+    font-size: 28px;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav{
+    margin-top: 10px;
+    width: 100%;
+}
+.nav logo{
+    width: 30%;
+    text-align: left;
+}
+.nav-menu {
+    
+    width: 65%;
+   
+    text-align: right;
+    padding: 0 0 0 200px;
+}
+
+
+.nav-list{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.nav-link{
+    
+    color: #7C0004;
+    font-weight: bold;
+
+}
+
+.nav-link:hover{
+    background-color: teal;
+    color: white;
+}
+.section-main{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    background-color: #7C0004;
+    height: 500px;
+}
+.section-main-one{
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.section-para{
+    line-height: 1.8;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-button{
+    
+    background-color: yellowgreen;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    margin: 24px 0 0 49px;
+    
+}
+.section-button:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.section-main-two{
+    width: 300px;
+}
+
+.section-main-three{
+    width: 300px;
+}
+
+.section-main-four{
+    width: 300px;
+}
+.section-img{
+    width: 300px;
+    height: 480px;
+
+}
+.section-img:hover{
+    border: 5px solid gray;
+}
+
+.course-details{
+    width: 100%;
+    height: 700px;
+    
+    background-image: url(/images/taj-back.jpg);
+    background-size: cover;
+}
+
+.course-heading{
+    font-family: 'Pattaya', sans-serif;
+    text-align: center;
+    color:whitesmoke;
+    padding-top: 50px;
+    font-size: 52px;
+}
+.course-para{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.course-line{
+    color: white;
+    width: 40%;
+    height: 10px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.line-mark{
+    display: flex;
+    margin: 0 0 0 191px;
+}
+.course-box{
+    width: 100%;
+    display: flex;
+
+}
+.box{
+    border: 2px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 80px 9px 0 17px;
+    border-radius: 10px;
+    background-color: #F5F4F4;
+    
+}
+.box:hover{
+    background-color: #7C0004;
+}
+.course-img{
+    width: 200px;
+    height: 150px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    justify-content: center;
+    margin: -60px 0 0 44px;
+    
+}
+.course-para-content{
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+
+}
+.course-details-para{
+    color: black;
+    text-align: center;
+}
+.course-button {
+    background-color: gray;
+    color: white;
+    
+    margin: 0 0 40px 83px;
+    padding: 8px 15px 8px 15px;
+    border-radius: 7px;
+    text-decoration: none;
+}
+.course-button:hover{
+    background-color: whitesmoke;
+    color: palevioletred;
+}
+.join-us{
+    width: 100%;
+    height: 600px;
+    background-color: #F3F2ED;
+    display: flex;
+    border-bottom: 1px solid gray;
+    
+}
+.join-image{
+    width: 600px;
+    height: 600px;
+}
+
+.join-image-img{
+    width: 600px;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.join-para{
+    width: 600px;
+    height: 500px;
+}
+.join-para h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 150px;
+    text-align: center;
+    color: #7C0004;
+    justify-content: center;
+}
+.join-para p{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 130px;
+}
+.join-para a{
+    
+        text-decoration: none;
+        background-color: #7C0004;
+        color: whitesmoke;
+        padding: 10px 20px 10px 20px;
+        font-style: italic;
+        margin: 0 0 0 252px;
+    }
+    .join-para a:hover{
+        background-color: teal;
+        color: whitesmoke;
+
+    }
+    .sub-menu{
+        width: 100%;
+       
+        display: flex;
+        margin: 15px 0 0 89px
+    }
+    .sm-l{
+        width: 400px;
+    }
+
+    .sm-m{
+        width: 400px;
+    }
+
+    .sm-e{
+        width: 400px;
+    }
+   .footer-icon{
+    font-size: 35px;
+    background: #2b2b2b;
+    color: #ffd441;
+    width: 60px;
+    height: 60px;
+    padding: 12px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+   }
+
+   .footer-para{
+       font-weight: 600;
+   }
+
+   .footer{
+       width: 100%;
+       background-color: black;
+       height: 400px;
+       margin-top: 20px;
+   }
+   .footer-one{
+       display: flex;
+       justify-content: center;
+     
+       
+   }
+
+   .footer-one p{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding-right: 12px;
+    margin-top: 30px;
+
+}
+
+.footer-icon1{
+    margin-top: 30px;
+    font-size: 20px;
+    background: #2b2b2b;
+    color: #ffd441;
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+   }
+
+   .footer-second{
+       margin-top: 15px;
+   }
+   .footer-second h3{
+       text-align: center;
+    color: goldenrod;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.footer-third{
+    margin-top: 15px;
+}
+.footer-third{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-variant: small-caps;
+    
+  
+}
+.navbar-footer{
+    
+    
+        display: flex;
+        margin: 11px 0 0 292px;
+  
+    
+    
+}
+.footer-list{
+    list-style: none;
+}
+.footer-link{
+    
+        text-decoration: none;
+        padding: 0 0 0 33px;
+        font-weight: 600;
+        color: white;
+
+}
+.footer-link:hover{
+    
+ color: #7C0004;
+
+}
+.footer-list span {
+    font-weight: 900;
+    font-size: 16px;
+    padding: 0 0 0 9px;
+    color: white;
+}
+
+.footer-hr{
+    color: white;
+    width: 70%;
+    margin: 38px 0 0 193px;
+    font-weight: bold;
+}
+.footer-copy{
+    width: 100%;
+    margin: 36px 0 0 319px
+}
+.footer-copy p{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+
+}
+.footer-desgin{
+    color: #FFD441 ;
+    text-decoration: none;
+
+}
+
+.footer-desgin:hover{
+    color: #FFD441 ;
+    text-decoration: underline;
+}
+
+
+/* about css start */
+.about-bred{
+    max-width: 100%;
+    height: 200px;
+    background-image: url(/images/taj-back.jpg);
+    background-size: cover;
+    display: flex;
+}
+.about-left{
+    text-align: left;
+    
+}
+.about-left h4{
+    
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 88px 0 0 113px;
+
+}
+.about-right{
+    text-align: right;
+    color: white;
+    font-weight: 700;
+    margin: 163px 0 0 702px;
+}
+.about-link{
+    color: white;
+    text-decoration: none;
+}
+
+.about-link:hover{
+    color: tomato;
+    text-decoration: solid;
+    font-weight: bold;
+}
+.name-about {
+    
+        text-align: center;
+        margin: 13px 0 16px 41px;
+        color: black;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+        font-style: italic;
+}
+
+.about-section{
+    max-width: 100%;
+    height: 400px;
+    display: flex;
+    margin-top: 43px;
+}
+.about-section-des{
+    width: 600px;
+    height: 350px;
+    margin: 0 26px 0 29px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.about-section-image{
+    width: 600px;
+    height: 350px;
+}
+img.about-sec-img {
+    border: 2px solid gray;
+    border-radius: 18px;
+    box-shadow: 0px 2px 2px 5px wheat;
+}
+.about-down {
+    width: 80%;
+    background-color: #7C0004;
+    height: 55px;
+    margin: 15px 0 0 102px;
+    border-radius: 28px 28px 0 0;
+    color: white;
+    padding: 11px 0 0 35px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+    .about-down-des {
+        width: 80%;
+        margin: 23px 0 0 107px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .team-section{
+        
+            max-width: 100%;
+            /* background-image: url(/images/taj-back.jpg); */
+            background-image: url(/images/team.jpg);
+            height: 700px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+         
+    }
+    .team-section h2 {
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        padding: 14px 0 0 0;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .team-section img {
+        margin: 0 0 0 450px;
+        border-radius: 50%;
+    }
+    .team-section h4,h6 {
+        text-align: center;
+        color: white;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .about-section-slider {
+        height: 356px;
+        border: 2px solid red;
+        overflow-y: auto;
+        overflow-x: hidden;
+     
+   
+        margin: 6px 7px 0 8px;
+      
+    }
+
+    .ceo h3 {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 10px;
+        word-spacing: 2px;
+    }
+    .ceo p {
+        color: white;
+        margin: 8px 16px 39px 16px;
+        text-align: justify;
+    }
+    .ceo h5 {
+        color: white;
+        font-style: italic;
+        text-decoration: underline;
+        margin: 7px 0 0 10px;
+    }
+    .ceo ol {
+        color: white;
+        margin: 29px 0 0 0;
+        font-variant: small-caps;
+    }
+
+    h5.achive {
+        color: white;
+        margin: 31px 0 0 10px;
+        text-decoration: underline;
+        font-style: italic;
+    }
+    .ceo-ach {
+        margin: 25px 0 0 0;
+        
+    }
+    
+   
+
+p.ach-para {
+    color: white;
+    margin: 7px 28px 0 9px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* about css end  */
+
+/* couser page css start */
+
+
+
+h3.course-page-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-variant: small-caps;
+    margin-top: 10px;
+}
+.course-box1 {
+    max-width: 100%;
+    display: flex;
+    margin: 33px 105px 10px 27px;
+    background-color: azure;
+}
+.course-box1-left{
+    width: 600px;
+}
+.course-box1-right {
+    width: 500px;
+    margin: 10px 0 0 11px;
+}
+.course-section-img {
+    width: 555px;
+    height: 300px;
+    margin: 10px 0 0 22px;
+}
+.course-box1-right h5 {
+    font-size: 30px;
+    font-variant: all-petite-caps;
+}
+.course-box1-right ul {
+    line-height: 2.5;
+    list-style: none;
+    font-variant: small-caps;
+}
+.gallery-box{
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 25px;
+    background-color: #F3F3F3;
+    margin-top: 20px;
+}
+   
+.gallery-box1 {
+    width: 400px;
+    height: 400px;
+    margin: 0 12px 0 7px;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 11px 3px;
+}
+
+.gallery-box2{
+    width: 400px;
+    height: 400px;
+    margin: 0 12px 0 7px;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 11px 3px;
+   
+}
+.gallery-box3{
+    width: 400px;
+    height: 400px;
+    margin: 0 12px 0 7px;
+    box-sizing: border-box;
+    box-shadow: 0px -5px 11px 3px;
+}
+.gallery-img{
+    width: 400px;
+    height: 350px;
+    
+}
+p.gallery-para {
+    text-align: center;
+    margin: 9px 0 0 0;
+}
+
+/* contact us css start  */
+.working-hour {
+    max-width: 100%;
+    background-color: yellowgreen;
+}
+
+.working-hour h4 {
+    text-align: center;
+    padding: 12px 0 11px 0;
+    font-size: 22px;
+    color: white;
+}
+.contact-form {
+    margin: 54px 0 56px 32px;
+}
+
+.contact-form h4 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+    color: brown;
+}
+
+
+
+.contact-details{
+    width: 100%;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.address{
+    width:400px;
+    height: 300px;
+    text-align: center;
+}
+
+.email{
+    width:400px;
+    height: 300px;
+    text-align: center;
+}
+
+.phone{
+    width:400px;
+    
+    height: 300px;
+    text-align: center;
+}
+.contact-icon {
+    font-size: 43px;
+    color: white;
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 6px 15px 6px 15px;
+    background-color: yellowgreen;
+    margin-top: 50px;
+}
+p.contact-para {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+
+
+
